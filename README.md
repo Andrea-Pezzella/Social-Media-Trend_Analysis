@@ -32,7 +32,7 @@ This project addresses this challenge by simulating a MapReduce system to proces
   - lowercased hashtags
   - removed duplicates and missing values
   - formatted dates
-- Generated consistent user IDs
+- Generated 895 unique user IDs
 - Created **engagement score** combining multiple metrics
 
 ### MapReduce Implementation
@@ -68,6 +68,12 @@ A custom MapReduce system was built with:
 ---
 
 ## Visualizations
+### User Activity Distribution
+![User Activity Distribution](images/UserActivityDistribution.png)
+### Trending Hashtags by Region
+![Trending Hashtags by Region](images/TrendingHashtagsByRegion.png)
+### Trending Hashtags by Platform
+![Trending Hashtags by Platform](images/TrendingHashtagsByPlatform.png)
 
 ---
 
@@ -78,6 +84,22 @@ A custom MapReduce system was built with:
 
 Key insight:
 > Distributed systems (e.g., Hadoop/Spark) are essential for large-scale data processing
+
+---
+
+## Scalability Results
+
+### Performance Summary
+![Performance Summary](images/PerformanceSummaryTable.png)
+
+This table shows how processing time scales with dataset size, demonstrating near-linear growth as data increases.
+
+---
+
+### Distributed Computing Benefits
+![Distributed Computing](images/DistributedComputingBenefits.png)
+
+This comparison highlights how distributed systems drastically reduce processing time compared to a single machine.
 
 ---
 

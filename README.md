@@ -1,4 +1,4 @@
-# Social Media Trend Analysis (MapReduce-Based)
+# Social Media Trend Analysis | Python + Google Colab
 
 ## Overview
 This project analyzes large-scale social media data to identify trends, user behavior, and engagement patterns using a custom MapReduce implementation.
